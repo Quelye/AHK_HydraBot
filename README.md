@@ -1,9 +1,8 @@
 # AHK_HydraBot
 For Hydra Bot on Discord https://hydra.bot/
 
-<hr>
 
-<h2>Hotkeys</h2>
+# Hotkeys
 
     Skip title:
     - Strg+Alt+n
