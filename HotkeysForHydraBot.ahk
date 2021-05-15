@@ -2,7 +2,7 @@
 
 ; Global variables
 global break_g = 0
-global pathToDiscord = "C:\Users\quely\AppData\Local\Discord\app-1.0.9001\Discord.exe"
+global pathToDiscord = path
 
 ;Funtions
 OpenDiscord() {
