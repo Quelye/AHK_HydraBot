@@ -2,16 +2,22 @@
 
 ; Global variables
 global break_g = 0
-global pathToDiscord = "C:\Users\quely\AppData\Local\Discord\app-1.0.9001\Discord.exe"
+global pathToDiscord = ""
 
 ;Funtions
 OpenDiscord() {
     try {
+        getPathToDiscord()
         Run %pathToDiscord%
     } catch e {
         MsgBox, An exception was thrown!`nSpecifically: %e%
         Exit
     }
+}
+
+getPathToDiscord() {
+    FileRead, pathVar, path.txt
+    pathToDiscord = %pathVar%
 }
 
 ;Skip to next title
